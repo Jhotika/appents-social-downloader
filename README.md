@@ -41,7 +41,7 @@ export type TargetFields = {
 
 - One post at a time (no feed scraping)
 - Only works in Chrome browser
-- Can not save a post's video if streamed
+- Can not save a live streams
 
 # Chrome Extension Starter Kit
 
@@ -49,20 +49,6 @@ This project was started using [Chrome Extension Starter Kit](https://github.com
 
 The remainder of this readme file is from that project.
 
-## Prerequisites
-
-- [node + npm](https://nodejs.org/) (Current Version)
-
-## Option
-
-- [Visual Studio Code](https://code.visualstudio.com/)
-
-## Includes the following
-
-- TypeScript
-- Webpack
-- React
-- Jest
 
 ## Project Structure
 
@@ -77,10 +63,6 @@ The remainder of this readme file is from that project.
 npm install
 ```
 
-## Import as Visual Studio Code project
-
-...
-
 ## Build
 
 ```
@@ -89,17 +71,10 @@ npm run build
 
 ## Build in watch mode
 
-### terminal
 
 ```
 npm run watch
 ```
-
-### Visual Studio Code
-
-Run watch mode.
-
-type `Ctrl + Shift + B`
 
 ## Load extension to chrome
 
